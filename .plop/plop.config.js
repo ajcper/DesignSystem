@@ -8,41 +8,47 @@ const componentGenerator = {
       default: 'Button',
     },
     {
+      type: 'input',
+      name: 'atomicType',
+      message: 'Atomic level (atoms, molecules or organisms) ?',
+      default: 'atoms',
+    },
+    {
       type: 'confirm',
       name: 'stateless',
       message: 'Is it a Stateless Component?',
       default: 'y',
     }
   ],
-  actions: ({ stateless }) => {
+  actions: ({ stateless, atomicType }) => {
     const actions = [
       {
         type: 'add',
-        path: '../src/components/{{properCase name}}/index.tsx',
+        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/index.tsx',
         templateFile: './index.tsx.hbs',
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../src/components/{{properCase name}}/{{properCase name}}.tsx',
+        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.tsx',
         templateFile: stateless ? './componentName.sfc.tsx.hbs' : './componentName.class.tsx.hbs',
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../src/components/{{properCase name}}/styled/Styled{{properCase name}}.tsx',
+        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/styled/Styled{{properCase name}}.tsx',
         templateFile: './componentName.styled.tsx.hbs',
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../src/components/{{properCase name}}/{{properCase name}}.test.tsx',
+        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.test.tsx',
         templateFile: './componentName.test.tsx.hbs',
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../src/components/{{properCase name}}/{{properCase name}}.stories.tsx',
+        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.stories.tsx',
         templateFile: './componentName.story.tsx.hbs',
         abortOnFail: true,
       },

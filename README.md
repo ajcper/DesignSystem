@@ -2,6 +2,8 @@
 
 The perfect boilerplate to help you to create your own React UI Kit. 
 
+<!-- https://github.com/leandrooriente/react-ui-kit-boilerplate -->
+
 <div>
   <!-- Dependency Status -->
   <a href="https://david-dm.org/leandrooriente/react-ui-kit-boilerplate">

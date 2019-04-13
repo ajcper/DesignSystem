@@ -2,7 +2,7 @@ import { action } from '@storybook/addon-actions';
 import { boolean, text, withKnobs } from '@storybook/addon-knobs';
 import { storiesOf } from '@storybook/react';
 import * as React from 'react';
-import { wInfo } from '../../utils/wInfo';
+import { wInfo } from '../../../utils/wInfo';
 import Button from './Button';
 
 const stories = storiesOf('Components/Button', module);
