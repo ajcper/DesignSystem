@@ -37,6 +37,8 @@
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-pose": "^4.0.8",
+    "react-pose-text": "^3.1.0",
     "styled-components": "^4.0.2"
   },
   "peerDependencies": {
@@ -74,6 +76,7 @@
     "ts-loader": "^5.1.1",
     "tslint": "^5.11.0",
     "tslint-react": "^3.6.0",
-    "typescript": "^3.0.3"
+    "typescript": "^3.0.3",
+    "merge": ">=1.2.1"
   }
 }
