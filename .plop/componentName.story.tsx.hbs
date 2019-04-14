@@ -3,8 +3,9 @@ import { storiesOf } from "@storybook/react";
 import * as React from "react";
 import { wInfo } from "../../../utils/wInfo";
 import {{ properCase name }} from "./{{ properCase name }}";
+import {{ properCase atomicType }} from "./{{ properCase atomicType }}";
 
-const stories = storiesOf("Components/{{ properCase name }}", module);
+const stories = storiesOf("Components/{{ atomicType }}/{{ properCase name }}", module);
 stories.addDecorator(withKnobs);
 
 stories.add(

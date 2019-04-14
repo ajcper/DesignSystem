@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>card-icon-diners</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="card-icon-diners" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M36,0 L4,0 C1.78,0 0.02,1.78 0.02,4 L0,28 C0,30.22 1.78,32 4,32 L36,32 C38.22,32 40,30.22 40,28 L40,4 C40,1.78 38.22,0 36,0 Z" id="Shape" fill="#CFD8DC" fill-rule="nonzero"></path>
+        <g id="Group" transform="translate(7.000000, 8.000000)" fill-rule="nonzero">
+            <path d="M18,0 L8,0 C3.601563,0 0,3.601563 0,8 C0,12.398438 3.601563,16 8,16 L18,16 C22.398438,16 26,12.398438 26,8 C26,3.601563 22.398438,0 18,0 Z" id="Shape" fill="#1565C0"></path>
+            <path d="M8,2 C4.699219,2 2,4.699219 2,8 C2,11.300781 4.699219,14 8,14 C11.300781,14 14,11.300781 14,8 C14,4.699219 11.300781,2 8,2 Z M4,8.05073554 C4,6.07813313 5.300781,4.51953328 7,4 L7,12 C5.300781,11.5819388 4,10.023339 4,8.05073554 Z M9,12 L9,4 C10.699219,4.41806214 12,6.07813286 12,8.05479465 C12,9.92186714 10.699219,11.4804668 9,12 Z" id="Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
