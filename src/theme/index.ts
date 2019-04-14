@@ -1,3 +1,5 @@
+import {colors, mediaQueries, text, layers } from './themeValues'
+
 interface Colors {
   disabledColor: string;
   primaryColor: string;
@@ -8,10 +10,10 @@ export interface ThemeInterface {
 }
 
 const theme: ThemeInterface = {
-  colors: {
-    disabledColor: '#bdc3c7',
-    primaryColor: '#27ae60',
-  },
+  colors,
+  mq: mediaQueries,
+  text,
+  layers,
 };
 
 export default theme;

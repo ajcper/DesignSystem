@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?4qyb5g');
+  src:  url('fonts/icomoon.eot?4qyb5g#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?4qyb5g') format('truetype'),
+    url('fonts/icomoon.woff?4qyb5g') format('woff'),
+    url('fonts/icomoon.svg?4qyb5g#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-subject-architecture:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-subject-art:before {
+  content: "\e901";
+  color: #fff;
+}
+.icon-subject-business:before {
+  content: "\e902";
+  color: #fff;
+}
+.icon-subject-law:before {
+  content: "\e903";
+  color: #fff;
+}
+.icon-subject-politics:before {
+  content: "\e904";
+  color: #fff;
+}
+.icon-subject-psychology:before {
+  content: "\e905";
+  color: #fff;
+}
+.icon-subject-science:before {
+  content: "\e906";
+  color: #fff;
+}
+.icon-subject-socialsciences:before {
+  content: "\e907";
+  color: #fff;
+}
+.icon-subject-tech:before {
+  content: "\e908";
+  color: #fff;
+}

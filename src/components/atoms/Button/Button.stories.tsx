@@ -5,7 +5,7 @@ import * as React from 'react';
 import { wInfo } from '../../../utils/wInfo';
 import Button from './Button';
 
-const stories = storiesOf('Components/Button', module);
+const stories = storiesOf('Components/atoms/Button', module);
 stories.addDecorator(withKnobs);
 
 stories.add(

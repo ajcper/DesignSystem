@@ -1,7 +1,7 @@
 import * as React from 'react';
-import styled from '../../utils/styled-components';
+import styled from '../../../utils/styled-components';
 
-export interface ColorProps {
+export interface MediaQueryDisplayProps {
   color: string;
   name: string;
 }
@@ -34,7 +34,7 @@ const Wrapper = styled<{}, 'div'>('div')`
   background: #FFF;
 `;
 
-const Color: React.SFC<ColorProps> = ({
+const MediaQueryDisplay: React.SFC<MediaQueryDisplayProps> = ({
   color,
   name,
 }) => (
@@ -46,4 +46,4 @@ const Color: React.SFC<ColorProps> = ({
   </Wrapper>
 );
 
-export default Color;
+export default MediaQueryDisplay;

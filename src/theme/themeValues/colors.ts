@@ -1,0 +1,31 @@
+const colors = {
+    black: '#373838',
+    blue: '#8eb8ff',
+    blueLight: '#c1d8ff',
+    red: '#ff8a80',
+    blueDark: '#4d8fff',
+    redDark: '#dc564a',
+    redLight: '#ffc9c5',
+    yellowLight: '#fff7b3',
+    yellowDark: '#f2da00',
+    yellow: '#fff174',
+    greyLight: '#f5f5f5',
+    grey: '#c9cdcd',
+    greyMedium: '#c9c9c9',
+    greyDark: '#808383',
+    white: '#ffffff',
+    teal: '#a8ffea',
+    tealDark: '#57eeca',
+    tealLight: '#d1fff4',
+    orange: '#f9845b',
+    lightGreenishBlue: '#57eeca',
+    orangeGolden: '#efa61f',
+    indigo: '#5e74c9',
+    greenLight: '#D0F8A5',
+    greenDark: '#1bb589',
+    green: '#7ed321',
+    magenta: '#dd6182',
+  };
+  
+  export default colors;
+  

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>P Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="component-nav-bar" transform="translate(-83.000000, -73.000000)" fill="#373838">
+            <g id="Group-2" transform="translate(50.000000, 51.000000)">
+                <path d="M33.84,37 L33.84,36.96 C34.42,35.54 34.64,34.72 34.64,32.78 L34.64,26.58 C34.64,24.62 34.42,23.82 33.84,22.4 L33.84,22.36 L39.7,22.36 C44.22,22.36 45.6,24.08 45.6,26.38 C45.6,28.92 43.84,31 39.3,31 L38.22,31 L38.22,32.78 C38.22,34.7 38.42,35.54 39.04,36.96 L39.04,37 L33.84,37 Z M38.82,22.82 C38.66,22.82 38.46,22.82 38.22,22.84 L38.22,30.54 L38.8,30.54 C41.18,30.54 41.94,28.24 41.94,26.38 C41.94,24.26 40.98,22.82 38.82,22.82 Z" id="P-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>
