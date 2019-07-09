@@ -162,7 +162,7 @@ const customGraphTooltip = {
 
 const standardTextStyles = {
   t1: {
-    fontFamily: CanelaBold,
+    fontFamily: 'Canela Bold',
     fontSize: '1.75rem',
     mq: {
       atTablet: {

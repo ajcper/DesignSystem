@@ -18,6 +18,12 @@ module.exports = (baseConfig, env, config) => {
     ]
   });
   config.resolve.extensions.push(".ts", ".tsx");
+  config.module.rules.push({
+      test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+      loaders: ['file-loader'],
+      include: path.resolve(__dirname, '../')
+  });
+  config.resolve.extensions.push(".eot", ".woff2", ".woff");
 
   return config;
 };

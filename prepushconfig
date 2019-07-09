@@ -1,0 +1,8 @@
+
+// Add back to package.json after scripts
+
+  // "husky": {
+  //   "hooks": {
+  //     "pre-push": "npm run lint && npm test"
+  //   }
+  // },
