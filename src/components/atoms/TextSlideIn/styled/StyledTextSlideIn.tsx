@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
         background-color: lightblue;  
     `}
     user-select: none;
-    font-size: 5rem;
+    /* font-size: 5rem; */
 `  
 
 export const TextUpWrapper = styled.div`
@@ -21,8 +21,8 @@ export const TextUpWrapper = styled.div`
     height: auto;
     position: absolute;
     width: auto;
-
     & > div {
+        ${({theme}) => theme.text.t1}
         font-size: 3rem;
     }
 `

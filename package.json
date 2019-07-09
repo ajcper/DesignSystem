@@ -1,5 +1,5 @@
 {
-  "name": "react-ui-kit-boilerplate",
+  "name": "design-system",
   "version": "1.0.0",
   "description": "A React UI Kit boilerplate with Styled Components, Typescript and Jest",
   "main": "index.js",
@@ -9,13 +9,8 @@
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "generate": "plop --plopfile ./.plop/plop.config.js",
     "deploy-storybook": "storybook-to-ghpages",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 -s ./src/assets",
     "build-storybook": "build-storybook"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run lint && npm test"
-    }
   },
   "repository": {
     "type": "git",
