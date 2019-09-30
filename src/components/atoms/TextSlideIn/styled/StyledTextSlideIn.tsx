@@ -1,4 +1,4 @@
-import styled from "../../../../utils/styled-components";
+import styled from "styled-components";
 
 export const StyledTextSlideIn = styled<{}, "div">("div")`
   color: ${({ theme }) => theme.colors.primaryColor};

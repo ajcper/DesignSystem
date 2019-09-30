@@ -21,7 +21,7 @@
     "allowSyntheticDefaultImports": false,
     "experimentalDecorators": true
   },
-  "include": ["src/**/*", ".storybook/**/*"],
+  "include": ["src/**/*", ".storybook/**/*", "stories/Button.stories.tsx"],
   "exclude": [
     "node_modules",
     "build",
