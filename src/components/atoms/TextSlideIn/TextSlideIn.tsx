@@ -29,7 +29,7 @@ const TextSlideIn: React.SFC<Props> = ({
         <TextUpWrapper>
             {/* <TextUp>Word to loop</TextUp> */}
             <SplitText initialPose="exit" pose="enter" charPoses={charPoses}>
-                React Pose Text
+                Text slide in animation 
             </SplitText>
         </TextUpWrapper>
     </Wrapper>

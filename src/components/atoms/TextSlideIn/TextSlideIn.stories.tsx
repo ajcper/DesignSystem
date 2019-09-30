@@ -4,7 +4,7 @@ import * as React from "react";
 import { wInfo } from "../../../utils/wInfo";
 import TextSlideIn from "./TextSlideIn";
 
-const stories = storiesOf("Components//atoms/TextSlideIn", module);
+const stories = storiesOf("Components/atoms/TextSlideIn", module);
 stories.addDecorator(withKnobs);
 
 stories.add(
