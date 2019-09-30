@@ -48,7 +48,7 @@ const componentGenerator = {
       },
       {
         type: 'add',
-        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.stories.tsx',
+        path: '../src/stories/{{properCase atomicType}}/{{properCase name}}.stories.tsx',
         templateFile: './componentName.story.tsx.hbs',
         abortOnFail: true,
       },
