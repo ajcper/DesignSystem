@@ -1,15 +1,14 @@
 import * as React from "react";
 
-import themed from "../../../utils/themed";
-import TextSlideIn from "./TextSlideIn";
+import themed from "./../../../../utils/themed";
+import NewOne from "./NewOne";
 
-
-describe("TextSlideIn", () => {
+describe("NewOne", () => {
   it("should render correctly", () => {
     const component = themed(
-      <TextSlideIn>
+      <NewOne>
         Test
-      </TextSlideIn>,
+      </NewOne>,
     ).toJSON();
 
     expect(component).toMatchSnapshot();

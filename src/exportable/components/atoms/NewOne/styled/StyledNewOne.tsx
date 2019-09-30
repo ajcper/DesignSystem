@@ -1,7 +1,7 @@
 import styled from "./../../../../../utils/styled-components";
 
-const Styled{{ properCase name }} = styled<{}, "div">("div")`
+const StyledNewOne = styled<{}, "div">("div")`
   color: ${({ theme }) => theme.colors.primaryColor};
 `;
 
-export default Styled{{ properCase name }};
+export default StyledNewOne;

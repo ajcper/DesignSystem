@@ -9,7 +9,7 @@
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
     "generate": "plop --plopfile ./.plop/plop.config.js",
     "deploy-storybook": "storybook-to-ghpages",
-    "storybook": "start-storybook -p 6006 -s ./src/assets",
+    "storybook": "start-storybook -p 6006 -s ./src/exportable/assets",
     "build-storybook": "build-storybook"
   },
   "repository": {

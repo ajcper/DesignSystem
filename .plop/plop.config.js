@@ -22,27 +22,27 @@ const componentGenerator = {
   ],
   actions: ({ stateless, atomicType }) => {
     const actions = [
+      // {
+      //   type: 'add',
+      //   path: '../src/exportable/components/{{properCase atomicType}}/{{properCase name}}/index.tsx',
+      //   templateFile: './index.tsx.hbs',
+      //   abortOnFail: true,
+      // },
       {
         type: 'add',
-        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/index.tsx',
-        templateFile: './index.tsx.hbs',
-        abortOnFail: true,
-      },
-      {
-        type: 'add',
-        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.tsx',
+        path: '../src/exportable/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.tsx',
         templateFile: stateless ? './componentName.sfc.tsx.hbs' : './componentName.class.tsx.hbs',
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/styled/Styled{{properCase name}}.tsx',
+        path: '../src/exportable/components/{{properCase atomicType}}/{{properCase name}}/styled/Styled{{properCase name}}.tsx',
         templateFile: './componentName.styled.tsx.hbs',
         abortOnFail: true,
       },
       {
         type: 'add',
-        path: '../src/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.test.tsx',
+        path: '../src/exportable/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.test.tsx',
         templateFile: './componentName.test.tsx.hbs',
         abortOnFail: true,
       },

@@ -1,14 +1,15 @@
 import * as React from "react";
 
-import themed from "../../../utils/themed";
-import Tab from "./Tab";
+import themed from "./../../../../utils/themed";
+import TextSlideIn from "./TextSlideIn";
 
-describe("Tab", () => {
+
+describe("TextSlideIn", () => {
   it("should render correctly", () => {
     const component = themed(
-      <Tab>
+      <TextSlideIn>
         Test
-      </Tab>,
+      </TextSlideIn>,
     ).toJSON();
 
     expect(component).toMatchSnapshot();

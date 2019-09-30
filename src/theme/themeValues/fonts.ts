@@ -1,18 +1,18 @@
-import CanelaBoldEot from './../../assets/fonts/Canela-Bold-Web.eot';
-import CanelaBoldWoffTwo from './../../assets/fonts/Canela-Bold-Web.woff2';
-import CanelaBoldWoff from './../../assets/fonts/Canela-Bold-Web.woff';
+import CanelaBoldEot from './../../exportable/assets/fonts/Canela-Bold-Web.eot';
+import CanelaBoldWoffTwo from './../../exportable/assets/fonts/Canela-Bold-Web.woff2';
+import CanelaBoldWoff from './../../exportable/assets/fonts/Canela-Bold-Web.woff';
 
-import RobotoRegularEot from './../../assets/fonts/Roboto-Regular-webfont.eot';
-import RobotoRegularWoff from './../../assets/fonts/Roboto-Regular-webfont.woff';
+import RobotoRegularEot from './../../exportable/assets/fonts/Roboto-Regular-webfont.eot';
+import RobotoRegularWoff from './../../exportable/assets/fonts/Roboto-Regular-webfont.woff';
 
-import RobotoMediumEot from './../../assets/fonts/Roboto-Medium-webfont.eot';
-import RobotoMediumWoff from './../../assets/fonts/Roboto-Medium-webfont.woff';
+import RobotoMediumEot from './../../exportable/assets/fonts/Roboto-Medium-webfont.eot';
+import RobotoMediumWoff from './../../exportable/assets/fonts/Roboto-Medium-webfont.woff';
 
-import RobotoBoldEot from './../../assets/fonts/Roboto-Bold-webfont.eot';
-import RobotoBoldWoff from './../../assets/fonts/Roboto-Bold-webfont.woff';
+import RobotoBoldEot from './../../exportable/assets/fonts/Roboto-Bold-webfont.eot';
+import RobotoBoldWoff from './../../exportable/assets/fonts/Roboto-Bold-webfont.woff';
 
-import RobotoLightEot from './../../assets/fonts/Roboto-Light-webfont.eot';
-import RobotoLightWoff from './../../assets/fonts/Roboto-Light-webfont.woff';
+import RobotoLightEot from './../../exportable/assets/fonts/Roboto-Light-webfont.eot';
+import RobotoLightWoff from './../../exportable/assets/fonts/Roboto-Light-webfont.woff';
 
 export const fontFamilyNames = {
   CanelaBold: '"Canela Bold"',
