@@ -36,7 +36,7 @@ const componentGenerator = {
       },
       {
         type: 'add',
-        path: '../src/exportable/components/{{properCase atomicType}}/{{properCase name}}/styled/Styled{{properCase name}}.tsx',
+        path: '../src/exportable/components/{{properCase atomicType}}/{{properCase name}}/{{properCase name}}.styles.tsx',
         templateFile: './componentName.styled.tsx.hbs',
         abortOnFail: true,
       },

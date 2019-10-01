@@ -1,5 +1,5 @@
 import * as React from "react";
-import Styled{{ properCase name }} from "./styled/Styled{{ properCase name }}";
+import Wrapper from "./{{ properCase name }}.styles";
 
 interface Props {
   children: React.ReactNode;
@@ -8,9 +8,9 @@ interface Props {
 const {{ properCase name }}: React.SFC<Props> = ({
   children,
 }) => (
-  <Styled{{ properCase name }}>
+  <Wrapper>
     {children}
-  </Styled{{ properCase name }}>
+  </Wrapper>
 );
 
 export default {{ properCase name }};
